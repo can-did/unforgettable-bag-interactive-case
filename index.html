@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Как покупка с многоразовой сумкой стала сигналом в CRM</title>
+    <meta name="description" content="Статический кейс о механике ВкусВилл × Mastercard: QR-код на сумке, касса, карта лояльности, бонусы и транзакционные данные.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+    <header class="hero" id="top">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">ВкусВилл × Mastercard · Санкт-Петербург · 2020–2021</p>
+          <h1>Как покупка с многоразовой сумкой стала сигналом в CRM</h1>
+          <div class="lede">
+            <p>Я спроектировал механику, которая связала QR-код на сумке, кассу, карту лояльности, бонусы и транзакционные данные.</p>
+            <p>Так обычное действие в магазине стало измеримым поведением покупателя.</p>
+          </div>
+          <a class="action-link" href="#mechanics">Как работала механика</a>
+        </div>
+        <figure class="hero__figure evidence evidence--large">
+          <img src="assets/images/web/01-hero-bag.webp" alt="Многоразовая сумка проекта ВкусВилл и Mastercard с графическим паттерном">
+          <figcaption>Реальная многоразовая сумка из пилота.</figcaption>
+        </figure>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section problem" aria-labelledby="problem-title">
+        <div class="container two-column">
+          <div class="section__intro">
+            <p class="section-kicker">Проблема</p>
+            <h2 id="problem-title">Экологичное действие оставалось невидимым</h2>
+          </div>
+          <div class="content-column">
+            <p>Покупатель мог прийти со своей сумкой и отказаться от одноразового пакета. Но компания не получала отдельного сигнала, связанного с конкретным участником программы лояльности.</p>
+            <p>Без такого события нельзя было видеть повторение поведения, выделять подтверждённый эко-сегмент и проверять релевантные предложения для этой аудитории.</p>
+            <div class="document-fields" aria-label="Разрыв между действием покупателя и данными бизнеса">
+              <div>
+                <span>Действие покупателя</span>
+                <strong>пришёл со своей сумкой</strong>
+              </div>
+              <div>
+                <span>Что видел бизнес</span>
+                <strong>нет отдельного сигнала</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section mechanics" id="mechanics" aria-labelledby="mechanics-title">
+        <div class="container">
+          <div class="section__intro section__intro--wide">
+            <p class="section-kicker">Сквозная механика</p>
+            <h2 id="mechanics-title">Как действие проходило через магазин и данные</h2>
+          </div>
+          <div class="mechanics__layout">
+            <ol class="steps" aria-label="Семь шагов механики">
+              <li><span>1</span><p>Покупатель сканировал QR-код сумки.</p></li>
+              <li><span>2</span><p>Действие связывалось с картой лояльности.</p></li>
+              <li><span>3</span><p>Касса передавала связанное транзакционное событие.</p></li>
+              <li><span>4</span><p>События обрабатывались ночью.</p></li>
+              <li><span>5</span><p>Бонус начислялся на следующий день.</p></li>
+              <li><span>6</span><p>Операция появлялась в транзакционном отчёте.</p></li>
+              <li><span>7</span><p>Действие становилось CRM-сигналом.</p></li>
+            </ol>
+            <div class="evidence-grid" aria-label="Документальные материалы механики">
+              <figure class="evidence"><img src="assets/images/web/02-qr-tag-closeup.webp" alt="Крупный план QR-бирки на сумке"><figcaption>QR-бирка связывала действие с механикой.</figcaption></figure>
+              <figure class="evidence"><img src="assets/images/web/03-landing-mechanics.webp" alt="Фрагмент покупательского лендинга с объяснением механики"><figcaption>Покупательское объяснение механики.</figcaption></figure>
+              <figure class="evidence"><img src="assets/images/web/04-bonus-6.webp" alt="Материал с объяснением 6 бонусов за покупку с QR-сумкой"><figcaption>6 бонусов за покупку с QR-сумкой.</figcaption></figure>
+              <figure class="evidence"><img src="assets/images/web/05-mastercard-bonus.webp" alt="Материал с объяснением дополнительного бонуса Mastercard"><figcaption>+20 бонусов при оплате Mastercard.</figcaption></figure>
+              <figure class="evidence"><img src="assets/images/web/07-report-redacted.webp" alt="Обезличенный фрагмент транзакционного отчёта"><figcaption>Обезличенная структура транзакционного отчёта.</figcaption></figure>
+            </div>
+          </div>
+          <div class="details" aria-label="Подтверждённые детали механики">
+            <h3>Подтверждённые детали</h3>
+            <ul>
+              <li>6 бонусов за покупку с QR-сумкой;</li>
+              <li>+20 бонусов при оплате Mastercard во время партнёрской акции;</li>
+              <li>начисление бонуса на следующий день;</li>
+              <li>не более двух учитываемых покупок в день;</li>
+              <li>поля отчёта: ID сумки, ID покупателя/карты лояльности, магазин, транзакция, платёжная система, сегмент.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section role" aria-labelledby="role-title">
+        <div class="container">
+          <div class="section__intro section__intro--wide">
+            <p class="section-kicker">Роль автора</p>
+            <h2 id="role-title">Моя роль — спроектировать и собрать механику</h2>
+            <p>Я сформулировал бизнес-задачу, собрал пользовательский и кассовый сценарий, согласовал требования к физическому продукту, бонусам и данным, проверил работу механики и координировал взаимодействие с Mastercard.</p>
+          </div>
+          <div class="role-grid">
+            <article><h3>Я определил</h3><ul><li>бизнес-задачу;</li><li>пользовательский и кассовый сценарий;</li><li>требования к бонусной логике;</li><li>требования к транзакционному отчёту.</li></ul></article>
+            <article><h3>Я координировал и проверял</h3><ul><li>требования к QR-бирке;</li><li>взаимодействие с Mastercard;</li><li>юридические ограничения;</li><li>тестовые покупки;</li><li>начисление бонусов.</li></ul></article>
+            <article><h3>Команды реализовали</h3><ul><li>производство физического продукта;</li><li>кассовые изменения;</li><li>серверную и SQL-логику;</li><li>магазинные и покупательские материалы.</li></ul></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section results" aria-labelledby="results-title">
+        <div class="container">
+          <div class="section__intro section__intro--wide">
+            <p class="section-kicker">Результаты</p>
+            <h2 id="results-title">Что показал пятимесячный пилот</h2>
+          </div>
+          <div class="metrics" aria-label="Подтверждённые метрики пилота">
+            <div><strong>2 630</strong><span>покупателей</span></div>
+            <div><strong>24 589</strong><span>покупок</span></div>
+            <div><strong>9</strong><span>покупок в среднем</span></div>
+            <div><strong>59%</strong><span>транзакций Mastercard</span></div>
+          </div>
+          <div class="interpretation">
+            <p>Пилот подтвердил, что покупатели входили в механику, возвращались с сумкой и создавали измеримые транзакционные события.</p>
+            <p>Эти данные не доказывают точное сокращение пакетов, рост продаж или прирост частоты относительно контрольной группы.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section limitations" aria-labelledby="limitations-title">
+        <div class="container two-column">
+          <div class="section__intro">
+            <p class="section-kicker">Ограничения</p>
+            <h2 id="limitations-title">Где механика сработала не полностью</h2>
+            <figure class="evidence"><img src="assets/images/web/06-store-poster.webp" alt="Магазинный плакат с правилами использования сумки"><figcaption>Магазинный плакат поддерживал сценарий в точке покупки.</figcaption></figure>
+          </div>
+          <ol class="limitations-list">
+            <li>Часть покупателей купила QR-сумку, но не начала регулярно её сканировать.</li>
+            <li>Онлайн-коммуникация дала охват, но не привела к продажам сумки.</li>
+            <li>Покупателю и кассиру нужно было выполнить действия в правильной последовательности, а бонус начислялся только на следующий день.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section career" aria-labelledby="career-title">
+        <div class="container career__grid">
+          <div class="section__intro">
+            <p class="section-kicker">Карьерный вывод</p>
+            <h2 id="career-title">Что этот проект говорит обо мне</h2>
+            <p>Я умею превращать поведенческую гипотезу в работающий розничный процесс: соединять физический продукт, кассу, программу лояльности, партнёра и данные; формулировать требования для разных команд; тестировать механику и честно оценивать результат.</p>
+          </div>
+          <div class="career__panel">
+            <h3>Профессиональные маркеры</h3>
+            <ul><li>межфункциональное управление;</li><li>продуктовая и процессная логика;</li><li>работа с данными и доказательствами.</li></ul>
+            <div class="link-stack">
+              <a class="action-link" href="https://fossil-platinum-32e.notion.site/37c2f0356b588022b6d6e02d00cd6a58?pvs=74">Открыть полное доказательное досье</a>
+              <a class="text-link" href="#mechanics">Пройти механику ещё раз</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
