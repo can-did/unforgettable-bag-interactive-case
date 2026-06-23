@@ -1,2 +1,8 @@
-file,kind,status,alt
-assets/images/web/,directory,placeholder,Prepared web images will be added in later tasks
+path,kind,source,purpose,public_status,privacy_status,sha256,dimensions
+assets/images/web/01-hero-bag.webp,image,Wix landing bag image,hero,approved,non-sensitive,f9441fe471c08fd71c7d6739698288086004d5cdb0e65cc54e0975df9f995421,1200x1200
+assets/images/web/02-qr-tag-closeup.webp,image,Wix landing QR asset,mechanics step 1,approved,non-sensitive,1f591edc87ef28ca11527643fb4b841d015c413bd5562818c2bc6d596c2c884a,640x640
+assets/images/web/03-landing-mechanics.webp,image,Wix landing mechanics visual,mechanics evidence,approved,non-sensitive,bbcdb9a10a1d97042fb4f419d4ef7a62a022aa1a92d0d0e50dc7a38d3dc115e6,1103x1400
+assets/images/web/04-bonus-6.webp,image,Wix landing 6 bonus asset,bonus detail,approved,non-sensitive,641cb7745b10468e64a28d286402d15a7486e1656232c9e057ca5332683b4b10,640x640
+assets/images/web/05-mastercard-bonus.webp,image,Wix landing Mastercard bonus asset,partner bonus detail,approved,non-sensitive,8d87133f6a920d2932069642d85f04eba8fdb9e8e0c49bc572227e7bffc2bb6a,720x600
+assets/images/web/06-store-poster.webp,image,Gmail store poster attachment dated 2021-04-26,store communication,approved,non-sensitive,789f1221f7944ff46e5e339077e4e2cd68459bfbbb989a88aa396b6b65b49a81,320x427
+assets/images/web/07-report-redacted.webp,image,Gmail transaction report attachment dated 2021-09-10,transaction report,approved,redacted,86944a856fd0851910df241aac4906a4b42f03a052cda91417a3e067682330cc,1208x825
