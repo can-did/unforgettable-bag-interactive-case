@@ -1,3 +1,0 @@
-# Recovery status
-
-Initialization pending.
