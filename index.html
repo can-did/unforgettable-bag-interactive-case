@@ -4,32 +4,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Незабываемая сумка — интерактивный карьерный кейс</title>
-    <meta name="description" content="Документальная веб-история о QR-сумке, кассовом событии, бонусной обработке и CRM-признаке покупателя.">
+    <meta name="description" content="Документальная веб-история о QR-сумке, кассовом событии, бонусной обработке, транзакционном отчёте и CRM-признаке покупателя.">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <a class="skip-link" href="#main">Перейти к содержанию</a>
+
     <header class="site-header">
       <nav class="nav" aria-label="Разделы кейса">
+        <a href="#entry">Вход</a>
         <a href="#problem">Проблема</a>
         <a href="#mechanic">Механика</a>
         <a href="#role">Роль</a>
         <a href="#results">Результаты</a>
         <a href="#limits">Ограничения</a>
+        <a href="#conclusion">Вывод</a>
       </nav>
     </header>
 
     <main id="main">
-      <section class="hero section" aria-labelledby="hero-title">
-        <div class="eyebrow">Карьерный кейс · ритейл · лояльность · данные</div>
+      <section id="entry" class="hero section" aria-labelledby="hero-title">
+        <div class="eyebrow">01 · Вход в кейс</div>
         <h1 id="hero-title">Незабываемая сумка</h1>
         <p class="lead">Короткая документальная история о том, как использование многоразовой сумки в магазине было связано с кассовым событием, программой лояльности, бонусной обработкой, транзакционным отчётом и CRM-признаком покупателя.</p>
-        <p class="chain">действие покупателя → кассовое событие → обработка → бонус → отчёт → CRM-признак</p>
+        <p class="chain" aria-label="Центральная цепочка кейса">действие покупателя → кассовое событие → обработка → бонус → отчёт → CRM-признак</p>
       </section>
 
       <section id="problem" class="section two-column" aria-labelledby="problem-title">
         <div>
-          <div class="eyebrow">01 · Проблема</div>
+          <div class="eyebrow">02 · Проблема</div>
           <h2 id="problem-title">Одного обещания экологичности недостаточно</h2>
         </div>
         <div>
@@ -39,8 +42,9 @@
       </section>
 
       <section id="mechanic" class="section" aria-labelledby="mechanic-title">
-        <div class="eyebrow">02 · Сквозная механика</div>
+        <div class="eyebrow">03 · Сквозная механика</div>
         <h2 id="mechanic-title">Кассовая цепочка покупателя</h2>
+        <p class="section-intro">Основная логика читается без JavaScript: один повторяемый покупательский жест проходит через кассу, бонусную обработку, отчёт и становится CRM-сигналом.</p>
         <ol class="steps" aria-label="Последовательность механики">
           <li><strong>Покупатель берёт QR-сумку.</strong><span>Сумка становится носителем повторяемого действия.</span></li>
           <li><strong>Кассир сканирует QR-код.</strong><span>Действие попадает в кассовый сценарий как событие.</span></li>
@@ -53,16 +57,17 @@
 
       <section id="role" class="section three-cards" aria-labelledby="role-title">
         <div class="section-heading">
-          <div class="eyebrow">03 · Роль автора</div>
+          <div class="eyebrow">04 · Роль автора</div>
           <h2 id="role-title">Разделение ответственности</h2>
+          <p class="section-intro">Кейс разделяет постановку задачи, координацию проверки и техническую реализацию профильными командами.</p>
         </div>
         <article class="card"><h3>Автор определил</h3><ul><li>бизнес-задачу;</li><li>пользовательский и кассовый сценарий;</li><li>требования к бонусной логике;</li><li>требования к транзакционному отчёту.</li></ul></article>
-        <article class="card"><h3>Автор координировал и проверял</h3><ul><li>требования к QR-бирке;</li><li>взаимодействие с Mastercard;</li><li>юридические ограничения;</li><li>тестовые покупки и начисление бонусов.</li></ul></article>
+        <article class="card"><h3>Автор координировал и проверял</h3><ul><li>требования к QR-бирке;</li><li>взаимодействие с Mastercard;</li><li>юридические ограничения;</li><li>тестовые покупки;</li><li>начисление бонусов.</li></ul></article>
         <article class="card"><h3>Команды реализовали</h3><ul><li>производство физического продукта;</li><li>кассовые изменения;</li><li>серверную и SQL-логику;</li><li>магазинные и покупательские материалы.</li></ul></article>
       </section>
 
       <section id="results" class="section" aria-labelledby="results-title">
-        <div class="eyebrow">04 · Результаты пилота</div>
+        <div class="eyebrow">05 · Результаты пилота</div>
         <h2 id="results-title">Подтверждённые показатели за пять месяцев</h2>
         <dl class="metrics">
           <div><dt>2 630</dt><dd>покупателей вошли в механику через покупку QR-сумки</dd></div>
@@ -73,7 +78,10 @@
       </section>
 
       <section id="limits" class="section two-column" aria-labelledby="limits-title">
-        <div><div class="eyebrow">05 · Ограничения</div><h2 id="limits-title">Что не доказывает этот кейс</h2></div>
+        <div>
+          <div class="eyebrow">06 · Ограничения</div>
+          <h2 id="limits-title">Что не доказывает этот кейс</h2>
+        </div>
         <ul class="limit-list">
           <li>точное сокращение количества одноразовых пакетов;</li>
           <li>рост продаж экологичного ассортимента;</li>
@@ -83,8 +91,8 @@
         </ul>
       </section>
 
-      <section class="section conclusion" aria-labelledby="conclusion-title">
-        <div class="eyebrow">06 · Карьерный вывод</div>
+      <section id="conclusion" class="section conclusion" aria-labelledby="conclusion-title">
+        <div class="eyebrow">07 · Карьерный вывод</div>
         <h2 id="conclusion-title">Ценность — в переводе идеи в проверяемую операционную цепочку</h2>
         <p>Кейс показывает работу на стыке покупательского сценария, кассового процесса, партнёрских ограничений, бонусной логики и данных для CRM — без приписывания автору разработки систем, которые выполняли профильные команды.</p>
         <a class="button" href="README.md">Открыть краткое доказательное досье</a>
